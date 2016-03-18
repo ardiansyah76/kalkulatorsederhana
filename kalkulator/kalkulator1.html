@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>KALKULATOR</title>
+</head>
+</body>
+<body background="E:\kalkulator\IT2.jpg">
+<form name="calc">
+<table bgcolor="red" border="10" align=center cellpadding="6" cellspacing="6">
+<tr>
+<td colspan="7" align=center><input type="text" name="input" value="" size=35></td>
+
+<tr>
+<td><input type="button" name=" seven " value=" 7  " onclick="calc.input.value += '7' "></td>
+<td><input type="button" name=" eight " value=" 8  " onClick="calc.input.value += '8' "></td>
+<td><input type="button" name=" nine  " value=" 9  " onClick="calc.input.value += '9' "></td>
+<td><input type="button" name=" div   " value=" /  " onClick="calc.input.value += '/' "></td>
+<td><input type="button" name=" percent " value=" %  " onClick="calc.input.value  = eval(calc.input.value)"></td>
+</tr>
+
+<tr>
+
+<td><input type="button" name=" four  " value=" 4  " onClick="calc.input.value += '4' "></td>
+<td><input type="button" name=" five  " value=" 5  " onClick="calc.input.value += '5' "></td>
+<td><input type="button" name=" six   " value=" 6  " onClick="calc.input.value += '6' "></td>
+<td><input type="button" name=" times " value=" x  " onClick="calc.input.value += '*' "></td>
+<td rowspan="2"><input type="button" name=" doit  " value=" = " onClick="calc.input.value  = eval(calc.input.value) "></td>
+</tr>
+
+<tr>
+<td><input type="button" name=" one   " value=" 1  " onClick="calc.input.value += '1' "></td>
+<td><input type="button" name=" two   " value=" 2  " onClick="calc.input.value += '2' "></td>
+<td><input type="button" name=" three " value=" 3  " onClick="calc.input.value += '3' "></td>
+<td><input type="button" name=" minus " value=" -  " onClick="calc.input.value += '-' "></td>
+</tr>
+
+<tr>
+<td colspan="2" ><input type="button" name=" zero  " value="        0        " onClick="calc.input.value += '0' "></td>
+<td><input type="button" name=" plus  " value=" +  " onClick="calc.input.value += '+' "></td>
+<td><input type="button" name=" clear " value=" c  " onClick="calc.input.value  = ''  "></td>
+</tr>
+</html>
+</table>
+</form>
